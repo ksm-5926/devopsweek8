@@ -1,0 +1,2 @@
+1.java -jar selenium-server-4.29.0.jar hub
+2.java -jar selenium-server-4.29.0.jar node --detect-drivers true
