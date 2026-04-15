@@ -1,0 +1,24 @@
+sudo apt update -y
+sudo  apt install docker.io -y
+sud0 systemctl start docker
+sudo systemctl status docker
+sudo usermod -aG docker ubuntu
+  docker run hello-world
+  newgrp docker
+  exit
+  logout
+
+i insert 
+  esc :wq!
+
+mkdir docker
+  cd docker
+  vim app.py
+  copy paste("hello world code")
+  cat app.py
+  vim Dockerfile
+  cat Dockerfile
+  docker build -t  ksm05/image:latest2 .//dot important
+  docker run -it ksm0m/image:latest2
+    docker login
+    docker push ksm0r/imaeg
